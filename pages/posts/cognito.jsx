@@ -9,6 +9,11 @@ AWS.config.credentials = new AWS.Credentials({
 // AWS Config
 const region = 'ap-northeast-1';
 const userPoolId =  process.env.NEXT_PUBLIC_USER_POOL_ID;
+console.log("=====test====");
+console.log(process.env.NEXT_PUBLIC_ACCESS_KEY_ID);
+console.log(process.env.NEXT_PUBLIC_SECRET_ACCESS_KEY_ID);
+console.log(userPoolId);
+console.log("=====test====");
 
 const targetEmail = 'ishizawa5226@yahoo.co.jp';
 
